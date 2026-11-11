@@ -1,0 +1,19 @@
+# Illustrative effective parameters, not fitted physiology.
+[model]
+period_scn_h = 24.5
+period_liver_h = 25.2
+j_x_per_h = 0.01
+j_z_per_h = 0.01
+
+[initial]
+# RY(theta) then RZ(phi), in radians. Zero gives |00>.
+scn_theta = 0.0
+scn_phi = 0.0
+liver_theta = 0.0
+liver_phi = 0.0
+
+[simulation]
+duration_h = 48.0
+output_step_h = 0.1
+max_step_h = 0.05
+seed = 2026
